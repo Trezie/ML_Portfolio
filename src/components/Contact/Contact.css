@@ -1,0 +1,143 @@
+/* General Styles */
+.contact-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: rgb(49, 49, 49);
+   
+
+  }
+  
+  .contact-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2a7bbf;
+  }
+  
+  .contact-info {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .contact-info a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  
+  .contact-subtext {
+    font-size: 1rem;
+    color: #ddd;
+    margin: 20px 0;
+  }
+  
+  /* Form Styling */
+  /* Contact Form Container */
+
+  .contact-form-wrapper {
+  padding: 40px 20px;
+  }
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: ;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+/* Form Columns */
+.form-left,
+.form-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 300px;
+  margin-right: 20px;
+}
+
+/* Input & Textarea */
+input,
+textarea {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+  color: #333;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Input Focus Styles */
+input:focus,
+textarea:focus {
+  border-color: #ffcc00;
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 204, 0, 0.4);
+}
+
+/* Textarea Custom Height */
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+/* Submit Button */
+.submit-btn {
+  margin-top: 20px;
+  padding: 14px 30px;
+  background-color: #2a7bbf;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #ffcc00;
+  color: #000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .form-left,
+  .form-right {
+    width: 100%;
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+}
+
+  
+  @media (max-width: 500px) {
+    .contact-title {
+      font-size: 2rem;
+    }
+  
+    input,
+    textarea {
+      font-size: 0.9rem;
+      padding: 12px;
+    }
+  
+    .submit-btn {
+      font-size: 1rem;
+      padding: 12px;
+    }
+  }
+  

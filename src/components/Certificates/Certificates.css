@@ -1,0 +1,58 @@
+.certificates-section {
+    background-color: #2a7bbf;
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+  }
+  
+  .certificates-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .certificate {
+    margin-bottom: 30px;
+  }
+  
+  .certificate-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+  .certificate-issuer {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  .certificate-links {
+    margin-top: 10px;
+  }
+  
+  .certificate-link {
+    font-size: 1rem;
+    color: #ffcc00;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .certificate-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .certificates-title {
+      font-size: 2rem;
+    }
+  
+    .certificate-title {
+      font-size: 1.1rem;
+    }
+  
+    .certificate-issuer {
+      font-size: 0.9rem;
+    }
+  }
+  

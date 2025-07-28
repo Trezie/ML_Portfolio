@@ -1,0 +1,93 @@
+/* HeaderSection.css */
+
+.header-container {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-bar > button {
+  margin-right: 30px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* Change color to #ffcc00 when hovered */
+.nav-links li a:hover {
+  color: #ffcc00;
+
+}
+
+/* Hamburger menu button */
+.menu-button {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .menu-button {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 20px 0;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li {
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 468px) {
+  .nav-links {
+    margin-right: 40px;
+    padding: 0px 100px;
+  }
+}

@@ -1,0 +1,96 @@
+    <script type="module" defer>
+      import Chatbot from "https://cdn.n8nchatui.com/v1/embed.js";
+      Chatbot.init({
+        "n8nChatUrl": "https://ifyyy.app.n8n.cloud/webhook/44cfc099-0c8f-4c13-b210-a25838401506/chat", // Replace this with your n8n chat webhook URL
+        "metadata": {}, // Include any custom data to send with each message to your n8n workflow
+        "theme": {
+          "button": {
+            "backgroundColor": "#ffc8b8",
+            "right": 20,
+            "bottom": 20,
+            "size": 50,
+            "iconColor": "#373434",
+            "customIconSrc": "https://www.svgrepo.com/show/339963/chat-bot.svg",
+            "customIconSize": 60,
+            "customIconBorderRadius": 15,
+            "autoWindowOpen": {
+              "autoOpen": false,
+              "openDelay": 2
+            },
+            "borderRadius": "rounded"
+          },
+          "tooltip": {
+            "showTooltip": true,
+            "tooltipMessage": "Hello! How are you doing today?",
+            "tooltipBackgroundColor": "#fff9f6",
+            "tooltipTextColor": "#1c1c1c",
+            "tooltipFontSize": 15
+          },
+          "chatWindow": {
+            "borderRadiusStyle": "rounded",
+            "avatarBorderRadius": 25,
+            "messageBorderRadius": 6,
+            "showTitle": true,
+            "title": "Appointment Setter Bot",
+            "titleAvatarSrc": "https://www.svgrepo.com/show/339963/chat-bot.svg",
+            "welcomeMessage": "Hello! How are you doing today?",
+            "errorMessage": "Kindly hold on while we resolve the error",
+            "backgroundColor": "#ffffff",
+            "height": 600,
+            "width": 400,
+            "fontSize": 16,
+            "starterPrompts": [
+              "Want an appointment?",
+              "Like to book a meeting?"
+            ],
+            "starterPromptFontSize": 15,
+            "clearChatOnReload": false,
+            "botMessage": {
+              "backgroundColor": "#f36539",
+              "textColor": "#fafafa",
+              "showAvatar": true,
+              "avatarSrc": "https://www.svgrepo.com/show/334455/bot.svg"
+            },
+            "userMessage": {
+              "backgroundColor": "#fff6f3",
+              "textColor": "#050505",
+              "showAvatar": true,
+              "avatarSrc": "https://www.svgrepo.com/show/532363/user-alt-1.svg"
+            },
+            "textInput": {
+              "placeholder": "Type your query",
+              "backgroundColor": "#ffffff",
+              "textColor": "#1e1e1f",
+              "sendButtonColor": "#f36539",
+              "maxChars": 50,
+              "maxCharsWarningMessage": "You exceeded the characters limit. Please input less than 50 characters.",
+              "autoFocus": false,
+              "borderRadius": 6,
+              "sendButtonBorderRadius": 50
+            }
+          }
+        }
+      });
+    </script>
+
+
+
+<button onclick="window.open('https://ifyyy-client-pdf-chatbot.hf.space', '_blank')" 
+  style="
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffc8b8;
+    border: none;
+    border-radius: 15px;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+    background-image: url('https://www.svgrepo.com/show/339963/chat-bot.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+  "
+  title="Chat with us"
+></button>

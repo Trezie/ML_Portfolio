@@ -1,0 +1,69 @@
+.project-detail-container {
+  padding: 100px 20px;
+  max-width: 900px;
+  margin: auto;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.project-header h1 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+.project-subheading {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.project-description h2 {
+  font-size: 1.5rem;
+  color: #444;
+  margin-top: 20px;
+}
+
+.project-description p,
+.project-description ul {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.project-description ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.btn-back {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 15px;
+  background-color: #ffcc00;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-demo {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background-color: #222;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-demo:hover {
+  background-color: #ffcc00;
+  color: #000;
+}

@@ -1,0 +1,70 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .images {
+    display: flex; /* Place images side by side */
+    justify-content: center; /* Center them horizontally */
+    align-items: center;
+    gap: 20px; /* Add spacing between images */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    margin-top: 20px;
+  }
+  
+  .profile-image {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    width: 45%; /* Adjust width to fit within container */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    object-fit: cover; /* Ensure images are well displayed */
+  }
+  
+  h2 {
+    color: #16a085;
+  }
+  
+  ul, ol {
+    padding-left: 20px;
+  }
+  
+  a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+@media (max-width: 768px) {
+  .profile-image {
+    width: 80%; /* Make images stack and take up more width */
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-image {
+    width: 100%; /* Full width for very small screens */
+  }
+}

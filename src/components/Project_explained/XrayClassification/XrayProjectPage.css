@@ -1,0 +1,46 @@
+.xrayproject-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.xrayproject-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.xrayproject-image {
+  display: block;
+  margin: 0 auto 2rem auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.xrayproject-section {
+  margin-bottom: 2rem;
+}
+
+.xrayproject-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #007acc;
+}
+
+.xrayproject-section p,
+.xrayproject-section ul {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.xrayproject-section ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}

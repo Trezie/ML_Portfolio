@@ -11,6 +11,7 @@ import HuggingFaceChatbot from './components/HuggingFaceChatbot/HuggingFaceChatb
 import AppointmentChatbotProjectPage from "./components/Project_explained/AppointmentChatbotProjectPage/AppointmentChatbotProjectPage";
 import Projects from "./components/Projects/Projects"
 import QuakesGymBotProjectPage from './components/Project_explained/QuakesGymBotProjectPage/QuakesGymBotProjectPage'
+import TravelImageProject from "./components/Project_explained/TravelImageProject/TravelImageProject";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
          <Route path='/XrayProjectPage' element={<XrayProjectPage/>} />
          <Route path="/AppointmentChatbotProjectPage" element={<AppointmentChatbotProjectPage />} />
          <Route path="/QuakesGymBotProjectPage" element={<QuakesGymBotProjectPage />} />
+         <Route path="/TravelImageProject" element={<TravelImageProject />} />
 
           
          <Route path="/projects" element={<Projects />} />

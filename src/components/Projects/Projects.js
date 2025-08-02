@@ -29,6 +29,15 @@ const projects = [
     link: "/QuakesGymBotProjectPage",
   },
 
+    {
+    title: "Travel Image Generator",
+    description: "Transforms a combination of customer data and trip itineraries into stunning, photorealistic images using Google Gemini and Stable Diffusion. Perfect for travel agencies.",
+    image: "/img/AI-travel-image4.png", // Replace with your actual preview image path
+    link: "/TravelImageProject",
+  }
+
+
+
 
 ];
 

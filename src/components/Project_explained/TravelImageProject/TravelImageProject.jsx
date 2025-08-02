@@ -50,6 +50,7 @@ const TravelImageProject = () => {
         </p>
       </section>
 
+
       <section className="gallery">
         <h2>Sample Images</h2>
         <div className="image-grid">
